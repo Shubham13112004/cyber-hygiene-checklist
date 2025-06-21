@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Hygiene Checklist App</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <div class="container">
+    <h1>Cyber Hygiene Self-Assessment</h1>
+    <p>Check the boxes below to see how safe your online habits are!</p>
+
+    <form id="shubham" onsubmit="return false;">
+
+        <label for="q1">
+            <input type="checkbox" id="q1" name="Q1">
+             1. Do you use strong and unique passwords?
+
+        </label>
+        <br><br>
+
+
+        <label for="q2">
+       <input type="checkbox" id="q2" name="q2">
+       2. Do you enable Two-Factor Authentication (2FA)?
+       </label
+       ><br><br>
+
+      <label for="q3">
+      <input type="checkbox" id="q3" name="q3">
+      3. Do you avoid clicking on unknown or suspicious links?
+      </label>
+      <br><br>
+
+      <label for="q4">
+      <input type="checkbox" id="q4" name="q4">
+      4. Do you regularly update your software and devices?
+      </label>
+      <br><br>
+
+      <label for="q5">
+      <input type="checkbox" id="q5" name="q5">
+      5. Do you scan external USB drives before using them?
+      </label><br><br>
+      <input type="button" value="submit" onclick="calculatescore()">
+
+      <p id="result"></p>
+
+    </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
